@@ -20,5 +20,9 @@
   "prisma": {
     "seed": "yarn rw exec seed"
   },
-  "packageManager": "yarn@3.7.0"
+  "packageManager": "yarn@3.7.0",
+  "dependencies": {
+    "react-dropzone": "^14.2.3",
+    "styled-components": "^6.1.1"
+  }
 }

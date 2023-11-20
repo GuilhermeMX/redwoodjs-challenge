@@ -14,8 +14,8 @@ generator client {
 model File {
   id         Int      @id @default(autoincrement())
   name       String
-  hash       String
+  key        String
   size       Int
   uploadedAt DateTime
-  path       String
+  url        String
 }

@@ -8,9 +8,7 @@ export const uploads = () => {
 export const uploadFile = async ({ request }) => {
   const { file } = request
 
-  console.log('Arquivo recebido:', file)
-
-  return { success: true, message: 'Arquivo enviado com sucesso!' }
+  return { success: true, message: 'Arquivo enviado com sucesso!', file }
 }
 
 export const beforeResolver = (rules) => {

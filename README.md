@@ -1,6 +1,10 @@
 # README
 
-Welcome to [RedwoodJS](https://redwoodjs.com)!
+Welcome to my redwoodjs challenge.
+
+This applications is a File Uploader Page that save your file, control the versions in amazon S3 and show the diff of the files uploaded.
+
+I chose to build this with JS and keep prisma for ORM. 
 
 > **Prerequisites**
 >
@@ -20,16 +24,6 @@ yarn redwood dev
 ```
 
 Your browser should automatically open to [http://localhost:8910](http://localhost:8910) where you'll see the Welcome Page, which links out to many great resources.
-
-> **The Redwood CLI**
->
-> Congratulations on running your first Redwood CLI command! From dev to deploy, the CLI is with you the whole way. And there's quite a few commands at your disposal:
->
-> ```
-> yarn redwood --help
-> ```
->
-> For all the details, see the [CLI reference](https://redwoodjs.com/docs/cli-commands).
 
 ## Prisma and the database
 

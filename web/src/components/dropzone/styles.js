@@ -5,10 +5,18 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
+
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
 `
 
 export const IframeBox = styled.iframe`
   width: 100%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 export const Image = styled.img`
@@ -23,16 +31,28 @@ export const FilesPreview = styled.div`
 `
 
 export const RegectedFiles = styled.div`
-  width: 50%;
-  padding: 0 10px;
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid #aaa;
+
+  @media (min-width: 769px) {
+    width: 50%;
+  }
 `
 
 export const AceptedFiles = styled.div`
-  width: 50%;
-  padding: 0 10px;
+  width: 100%;
+  padding: 1rem;
   justify-content: center;
   text-align: center;
   border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+
+  @media (min-width: 769px) {
+    width: 50%;
+    border-top: none;
+    margin-top: 0;
+  }
 `
 
 export const FilesContainer = styled.div`

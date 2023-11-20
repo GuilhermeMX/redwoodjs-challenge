@@ -1,7 +1,7 @@
 const MainLayout = ({ children }) => {
   return (
     <>
-      <header>LOGO</header>
+      <header>FileLoader</header>
 
       <main>{children}</main>
     </>

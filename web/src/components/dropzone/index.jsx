@@ -16,15 +16,7 @@ const Dropzone = () => {
   const [files, setFiles] = useState([])
   const { getRootProps, getInputProps, acceptedFiles, fileRejections } =
     useDropzone({
-      // implementando máximo de arquivos
-      maxFiles: 2,
-      //implelentando tipo de arquivos aceitos
-      accept: {
-        'image/png': ['.png'],
-        'text/html': ['.html', '.htm'],
-      },
       onDrop: (acceptedFiles) => {
-        console.log(acceptedFiles)
         setFiles(
           acceptedFiles.map((file) =>
             Object.assign(file, {

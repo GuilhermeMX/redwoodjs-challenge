@@ -12,11 +12,13 @@ body {
 }
 
 header {
-  position: relative;
+  display: flex;
   background-color: #111b21;
   height: 5rem;
   text-align: center;
   color: white;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
